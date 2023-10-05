@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập buổi 3</title>
+</head>
+
+<body>
+    <h2>Câu 1: Bài tập về Iframe</h2>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14900.287400442934!2d105.79380701509781!3d20.989756791683288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acbfeb557d3b%3A0x18a21f588b4fd5ee!2zODYgxJAuIE5ndXnhu4VuIFhp4buDbiwgVGhhbmggWHXDom4gTmFtLCBUaGFuaCBYdcOibiwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1692371701057!5m2!1svi!2s"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <h2>Câu 2: Bài tập về form</h2>
+    <form action="">
+        <label for="fullname">Họ tên: </label>
+        <br>
+        <input type="text" name="Full_Name" id="fullname" required placeholder="Ví dụ: Nguyen Thanh Trung">
+        <br>
+        <label for="mail">Email: </label>
+        <br>
+        <input type="email" name="Email" id="mail" required placeholder="Ví dụ: abc@gmail.com">
+        <br>
+        <label for="pass">Mật khẩu: </label>
+        <br>
+        <input type="password" name="MatKhau" id="pass" required>
+        <br>
+        <input type="submit" value="Đăng ký">
+    </form>
+    <br>
+    <form action="">
+        <input type="search" placeholder="Nhập nội dung tìm kiếm" required>
+        <input type="submit" value="Tìm kiếm">
+    </form>
+    <h2>Câu 3: Bài tập để ôn lại kiến thức về form</h2>
+    <p><b>- Thẻ input:</b></p>
+    <div>
+        Kiểu text:
+        <br>
+        <input type="text" placeholder="Nhập họ tên..">
+    </div>
+    <br>
+    <div>
+        Kiểu email:
+        <br>
+        <input type="email" placeholder="Nhập email">
+    </div>
+    <br>
+    <div>
+        Kiểu password:
+        <br>
+        <input type="password">
+    </div>
+    <br>
+    <div>
+        Kiểu number:
+        <br>
+        <input type="number">
+    </div>
+    <br>
+    <div>
+        Kiểu date:
+        <br>
+        <input type="date">
+    </div>
+    <br>
+    <div>
+        Kiểu time:
+        <br>
+        <input type="time">
+    </div>
+    <br>
+    <div>
+        Kiểu file:
+        <br>
+        <input type="file">
+    </div>
+    <br>
+    <div>
+        Kiểu radio:
+        <br>
+        <input type="radio" name="gender" value="Nam"> Nam
+        <br>
+        <input type="radio" name="gender" value="Nu"> Nữ
+        <br>
+        <input type="radio" name="gender" value="Khac"> Khac
+    </div>
+    <br>
+    <div>
+        Kiểu range:
+        <br>
+        Âm lượng (min=0 và max=100):
+        <br>
+        <input type="range"> 
+    </div>
+    <br>
+    <div>
+        Kiểu color:
+        <br>
+        <input type="color">
+    </div>
+    <p><b>- Thẻ select:</b></p>
+    <form action="">
+        <label for="hang">Chọn danh mục:</label>
+        <br>
+        <select name="hang" id="hang">
+            <option value="quan">Quần</option>
+            <option value="ao">Áo</option>
+            <option value="mu">Mũ</option>
+            <option value="khan">Khăn</option>
+        </select>
+    </form>
+    <p><b>- Thẻ textarea (có cols = 30 và rows = 10):</b></p>
+    <textarea name="note" id="note" cols="30" rows="10"></textarea>
+
+</body>
+
+</html>
